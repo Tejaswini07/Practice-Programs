@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56604" started-at="2017-08-17T19:31:30Z" finished-at="2017-08-17T19:32:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56604" started-at="2017-08-17T19:31:30Z" finished-at="2017-08-17T19:32:27Z">
+      <class name="firsttestngfile">
+        <test-method status="FAIL" signature="verifyHomepageTitle()[pri:0, instance:firsttestngfile@d2cc05a]" name="verifyHomepageTitle" duration-ms="56526" started-at="2017-08-17T14:31:30Z" finished-at="2017-08-17T14:32:27Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ screenshots@mozilla.org version 6.6.0
+1502998302923	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1502998302925	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502998302935	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502998302936	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502998302936	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502998302937	addons.manager	DEBUG	Starting provider: GMPProvider
+1502998302952	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502998302953	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502998302953	addons.manager	DEBUG	Starting provider: PluginProvider
+1502998302953	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502998302954	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502998302955	addons.manager	DEBUG	Completed startup sequence
+1502998304715	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502998304717	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502998304718	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502998305299	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305299	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502998305299	DeferredSave.extensions.json	DEBUG	Starting timer
+1502998305323	DeferredSave.extensions.json	DEBUG	Starting write
+1502998305329	addons.repository	DEBUG	No addons.json found.
+1502998305331	DeferredSave.addons.json	DEBUG	Save changes
+1502998305352	DeferredSave.addons.json	DEBUG	Starting timer
+1502998305481	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502998305485	DeferredSave.addons.json	DEBUG	Starting write
+1502998305503	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305556	DeferredSave.addons.json	DEBUG	Write succeeded
+1502998322613	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502998322614	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502998322616	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502998322618	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502998322619	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 9204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502998323064	addons.manager	DEBUG	shutdown
+1502998323065	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502998323065	addons.xpi	DEBUG	shutdown
+1502998323066	addons.xpi-utils	DEBUG	shutdown
+1502998323067	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502998323068	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502998323072	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502998323073	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502998323075	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502998323080	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502998323088	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'LAPTOP-GIEEKLTV', ip: '192.168.1.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ screenshots@mozilla.org version 6.6.0
+1502998302923	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1502998302925	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502998302935	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502998302936	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502998302936	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502998302937	addons.manager	DEBUG	Starting provider: GMPProvider
+1502998302952	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502998302953	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502998302953	addons.manager	DEBUG	Starting provider: PluginProvider
+1502998302953	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502998302954	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502998302955	addons.manager	DEBUG	Completed startup sequence
+1502998304715	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502998304717	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502998304718	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502998305299	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305299	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502998305299	DeferredSave.extensions.json	DEBUG	Starting timer
+1502998305323	DeferredSave.extensions.json	DEBUG	Starting write
+1502998305329	addons.repository	DEBUG	No addons.json found.
+1502998305331	DeferredSave.addons.json	DEBUG	Save changes
+1502998305352	DeferredSave.addons.json	DEBUG	Starting timer
+1502998305481	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502998305485	DeferredSave.addons.json	DEBUG	Starting write
+1502998305503	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305556	DeferredSave.addons.json	DEBUG	Write succeeded
+1502998322613	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502998322614	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502998322616	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502998322618	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502998322619	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 9204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502998323064	addons.manager	DEBUG	shutdown
+1502998323065	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502998323065	addons.xpi	DEBUG	shutdown
+1502998323066	addons.xpi-utils	DEBUG	shutdown
+1502998323067	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502998323068	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502998323072	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502998323073	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502998323075	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502998323080	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502998323088	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'LAPTOP-GIEEKLTV', ip: '192.168.1.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:124)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at firsttestngfile.verifyHomepageTitle(firsttestngfile.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ screenshots@mozilla.org version 6.6.0
+1502998302923	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1502998302925	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1502998302935	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1502998302936	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1502998302936	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1502998302936	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1502998302937	addons.manager	DEBUG	Starting provider: GMPProvider
+1502998302952	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1502998302953	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1502998302953	addons.manager	DEBUG	Starting provider: PluginProvider
+1502998302953	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1502998302954	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1502998302955	addons.manager	DEBUG	Completed startup sequence
+1502998304715	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1502998304717	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1502998304718	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1502998305299	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305299	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1502998305299	DeferredSave.extensions.json	DEBUG	Starting timer
+1502998305323	DeferredSave.extensions.json	DEBUG	Starting write
+1502998305329	addons.repository	DEBUG	No addons.json found.
+1502998305331	DeferredSave.addons.json	DEBUG	Save changes
+1502998305352	DeferredSave.addons.json	DEBUG	Starting timer
+1502998305481	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1502998305481	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1502998305485	DeferredSave.addons.json	DEBUG	Starting write
+1502998305503	DeferredSave.extensions.json	DEBUG	Write succeeded
+1502998305556	DeferredSave.addons.json	DEBUG	Write succeeded
+1502998322613	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 1.1
+1502998322614	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 6.6.0
+1502998322616	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1502998322618	addons.xpi	DEBUG	Calling bootstrap method shutdown on e10srollout@mozilla.org version 1.50
+1502998322619	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+[GPU 9204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502998323064	addons.manager	DEBUG	shutdown
+1502998323065	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1502998323065	addons.xpi	DEBUG	shutdown
+1502998323066	addons.xpi-utils	DEBUG	shutdown
+1502998323067	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1502998323068	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1502998323072	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1502998323073	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1502998323075	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1502998323080	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1502998323088	addons.manager	DEBUG	Async provider shutdown done
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:112)
+	... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+      </class> <!-- firsttestngfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
